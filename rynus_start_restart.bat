@@ -1,7 +1,7 @@
 @echo off
 
-:: Set variables
-set "USER_NAME=YOUR_USERNAME"  :: Replace with the actual username
+:: Automatically retrieve the current username
+set "USER_NAME=%USERNAME%"
 set "RYNUS_PATH=C:\Users\%USER_NAME%\AppData\Roaming\RYNUS\RYNUS Worker\RYNUS Worker client.exe"
 set "RESTART_INTERVAL=10800"  :: Time in seconds (3 hours = 10800 seconds)
 
